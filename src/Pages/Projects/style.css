@@ -1,0 +1,24 @@
+.projects {
+  width: 100%;
+  height: 200vh;
+  padding-bottom: 50px;
+  background-color: rgb(169, 182, 190);
+}
+
+@media only screen and (max-width: 1025px) {
+  .projects {
+    height: 105vh;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .projects {
+    height: 125vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projects {
+    height: 370vh;
+  }
+}

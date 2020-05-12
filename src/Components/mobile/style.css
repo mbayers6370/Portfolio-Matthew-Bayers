@@ -1,0 +1,85 @@
+.mobile-nav {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1025px) {
+  .MuiButton-label {
+    color: orange;
+  }
+
+  .MuiPopover-paper {
+    outline: 0;
+    position: absolute;
+    max-width: none !important;
+    min-width: 16px;
+    max-height: none !important;
+    min-height: 16px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.472) !important;
+  }
+
+  .mobile-nav {
+    display: initial !important;
+    position: fixed;
+    left: 2vw;
+    z-index: 8;
+    margin-top: 3vh;
+    text-align: center;
+  }
+
+  .mobile-nav-container {
+    margin-left: 35vw;
+    margin-top: 10vh;
+  }
+
+  .MuiMenu-list {
+    height: 98vh !important;
+    width: 97vw !important;
+  }
+
+  .menu-item-mobile {
+    font-size: 50px !important;
+    font-family: "Raleway", sans-serif !important;
+    margin-top: 5vh !important;
+  }
+
+  button:focus {
+    outline: none;
+    background-color: rgb(106, 140, 168, 0);
+  }
+
+  .mobile-ul {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .mobile-nav {
+    margin-top: 3vh;
+  }
+
+  .MuiMenu-list {
+    height: 97vh !important;
+    width: 96vw !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-nav {
+    margin-bottom: 0px;
+  }
+
+  .mobile-nav-container {
+    margin-top: 5vh;
+    margin-left: 25vw;
+  }
+
+  .MuiMenu-list {
+    width: 92vw !important;
+  }
+
+  .mobile-ul {
+    font-size: 35px;
+  }
+}

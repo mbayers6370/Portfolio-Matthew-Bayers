@@ -1,0 +1,25 @@
+.social-container {
+  background-color: rgba(49, 49, 49, 0.548);
+  color: white;
+  position: fixed;
+  margin-top: 200px;
+  margin-right: 5vw;
+  left: 10px;
+  padding: 2vw;
+  border-radius: 10px;
+}
+
+.social-icon {
+  margin-bottom: 30px;
+  color: white !important;
+}
+
+.icon {
+  color: white !important;
+}
+
+@media only screen and (max-width: 1025px) {
+  .social-container {
+    display: none;
+  }
+}

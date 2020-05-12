@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Bit Academy",
+    "image": "./../images/homePage.png",
+    "application": "Bit Academy",
+    "content": "A site for students & teachers to connect!",
+    "link": "https://arcane-snowlands.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "name": "Coalesce",
+    "image": "./../images/matches-ex.jpg",
+    "application": "Coalesce",
+    "content": "Search for restaurants using Yelp Fusion, and match with friends.",
+    "link": "https://arcane-woodland-29279.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "name": "Panoptic",
+    "image": "./../images/project-1.png",
+    "application": "Panoptic",
+    "content": "Music videos, lyrics, & artist data - all at your fingertips!",
+    "link": "https://mbayers6370.github.io/Project-1/"
+  },
+  {
+    "id": 4,
+    "name": "Bamazon",
+    "image": "./../images/bamazon2.gif",
+    "application": "Bamazon",
+    "content": "A store ran on Node.js & MySQL.",
+    "link": "https://github.com/mbayers6370/bamazon"
+  },
+  {
+    "id": 5,
+    "name": "Giphy",
+    "image": "./../images/giphy.png",
+    "application": "Giphy",
+    "content": "Search for gifs using Giphy API!",
+    "link": "https://mbayers6370.github.io/giphy/"
+  },
+  {
+    "id": 2,
+    "name": "Friend Finder",
+    "image": "./../images/friends.png",
+    "application": "Friend Finder",
+    "content": "Find your new best friend!",
+    "link": "https://fathomless-thicket-85131.herokuapp.com/"
+  }
+]

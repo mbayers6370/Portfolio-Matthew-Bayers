@@ -1,0 +1,55 @@
+.nav {
+  left: 0;
+  bottom: 0;
+  height: 50px !important;
+  width: 100% !important;
+  position: fixed;
+  z-index: 4;
+  transition: width 0.1s ease !important;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif !important;
+  margin-bottom: 40px;
+}
+
+.nav-container {
+  padding-left: 43px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-ul {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-li {
+  font-size: 15px;
+  text-decoration: none;
+  float: right;
+  margin-right: 3vw;
+  font-weight: bolder;
+  border: 2px white solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nav-li:hover {
+  background-size: 50px;
+  color: rgb(200, 200, 200);
+  filter: blur(1px);
+}
+
+@media only screen and (max-width: 1025px) {
+  .nav {
+    display: none;
+  }
+}

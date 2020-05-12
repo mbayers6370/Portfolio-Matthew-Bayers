@@ -1,0 +1,23 @@
+.myVideo {
+  position: fixed;
+  left: 0;
+  top: -25vh;
+  width: 105%;
+  height: 150vh;
+}
+
+@media only screen and (max-width: 1025px) {
+  .myVideo {
+    height: 100vh;
+    width: 410%;
+    margin-left: -100vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .myVideo {
+    top: -20px;
+    margin-left: -100vw;
+    height: 105%;
+  }
+}
