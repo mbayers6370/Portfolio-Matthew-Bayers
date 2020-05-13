@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Portfolio-Matthew-Bayers/precache-manifest.ab0ea9ec4b3a9faa400cbe337d109bf2.js"
+  "/Portfolio-Matthew-Bayers/precache-manifest.ef803bd64e7b52aa5627238d9dd68914.js"
 );
 
 self.addEventListener('message', (event) => {
