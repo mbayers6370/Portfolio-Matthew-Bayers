@@ -1,42 +1,24 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "engines": {
-    "node": "12.13.0",
-    "npm": "6.12.0"
-  },
+  "name": "portfolio-matthew-bayers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "dependencies": {
-    "@material-ui/core": "^4.9.13",
-    "@material-ui/icons": "^4.9.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.1.2"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "node server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbayers6370/Portfolio-Matthew-Bayers.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbayers6370/Portfolio-Matthew-Bayers/issues"
+  },
+  "homepage": "https://github.com/mbayers6370/Portfolio-Matthew-Bayers"
 }
