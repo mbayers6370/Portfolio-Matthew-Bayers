@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f4d73d0c37b82eece7ff116a8f9a0f1",
+    "revision": "ca131161be918de109012df65139d047",
     "url": "/Portfolio-Matthew-Bayers/index.html"
   },
   {
-    "revision": "4d15f28de93c7e6d84aa",
+    "revision": "932dde0614d6a1283a05",
     "url": "/Portfolio-Matthew-Bayers/static/css/main.cfff5cf2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Matthew-Bayers/static/js/2.d58c7b72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d15f28de93c7e6d84aa",
-    "url": "/Portfolio-Matthew-Bayers/static/js/main.1e653124.chunk.js"
+    "revision": "932dde0614d6a1283a05",
+    "url": "/Portfolio-Matthew-Bayers/static/js/main.763bf0ae.chunk.js"
   },
   {
     "revision": "17bb98eb731016422410",
