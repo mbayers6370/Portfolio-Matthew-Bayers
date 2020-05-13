@@ -15,9 +15,18 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects} />
+          <Route
+            exact
+            path="/Portfolio-Matthew-Bayers/about"
+            component={About}
+          />
+          <Route
+            exact
+            path="/Portfolio-Matthew-Bayers/projects"
+            component={Projects}
+          />
         </Switch>
+        npm
       </Router>
     </>
   );
