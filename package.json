@@ -13,7 +13,7 @@
     "start:prod": "node server.js",
     "start:dev": "concurrently \"npm run client\"",
     "client": "npm start",
-    "build": "react-scripts build"
+    "build": "npm build"
   },
   "repository": {
     "type": "git",
