@@ -1,18 +1,12 @@
 .nav {
-  left: 0;
-  bottom: 0;
-  height: 50px !important;
-  width: 100% !important;
+  width: 100vw !important;
   position: fixed;
+  bottom: 0px;
   z-index: 4;
-  transition: width 0.1s ease !important;
-  border-radius: 5px;
-  font-family: "Raleway", sans-serif !important;
-  margin-bottom: 40px;
-}
-
-.nav-container {
-  padding-left: 43px;
+  font-family: "Poiret One", cursive;
+  letter-spacing: 2px;
+  padding-bottom: 2vh;
+  background-color: rgba(0, 0, 0, 0.349);
 }
 
 .nav-link {
@@ -32,20 +26,21 @@ a {
 }
 
 .nav-li {
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
-  float: right;
-  margin-right: 3vw;
-  font-weight: bolder;
+  margin-right: 2vw;
+  margin-left: 2vw;
   border: 2px white solid;
   border-radius: 10px;
-  padding: 10px;
+  padding: 9px;
+  float: right;
+  color: white;
 }
 
 .nav-li:hover {
-  background-size: 50px;
-  color: rgb(200, 200, 200);
-  filter: blur(1px);
+  color: rgb(224, 150, 79);
+  border-color: rgb(224, 150, 79);
+  filter: blur(2px);
 }
 
 @media only screen and (max-width: 1025px) {

@@ -11,10 +11,10 @@ class About extends Component {
           <div className="about-content z-depth-5">
             <img
               alt="profile"
-              className="about-pic circle"
-              src="./../images/matt.jpg"
+              className="about-pic"
+              src="./../images/mattProf2.png"
             />
-            <p className="about-bio z-depth-3">
+            <p className="about-bio">
               Matt studied at UC Berkeley and is certified in Full Stack Web
               Development. Skilled in React and making beautiful web pages he
               spends his days learning new and faster methods of developing.

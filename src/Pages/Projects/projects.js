@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./style.css";
 import Card from "../../Components/Card/card";
 import projects from "../../projects.json";
+import Socials from "../../Components/Socials/socials";
 
 class Projects extends Component {
   state = {
@@ -10,6 +11,7 @@ class Projects extends Component {
   render() {
     return (
       <>
+        <Socials />
         <div className="projects">
           {this.state.projects.map((data) => (
             <Card

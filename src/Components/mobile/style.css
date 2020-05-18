@@ -3,20 +3,29 @@
 }
 
 @media only screen and (max-width: 1025px) {
-  .MuiButton-label {
+  button {
     color: orange;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+  }
+
+  .MuiPaper-root {
+    text-align: -webkit-center;
   }
 
   .MuiPopover-paper {
     outline: 0;
     position: absolute;
     max-width: none !important;
-    min-width: 16px;
     max-height: none !important;
-    min-height: 16px;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: rgba(0, 0, 0, 0.472) !important;
+    background-color: rgba(0, 0, 0, 0.781) !important;
+    left: 0px !important;
+    width: 105vw;
+    height: 101vh;
+    top: 0px !important;
+    bottom: 0px !important;
   }
 
   .mobile-nav {
@@ -33,14 +42,21 @@
     margin-top: 10vh;
   }
 
+  .mobile-close {
+    color: white;
+    float: right;
+    margin-right: 4vw;
+    margin-top: 2vh;
+  }
+
   .MuiMenu-list {
     height: 98vh !important;
     width: 97vw !important;
   }
 
   .menu-item-mobile {
-    font-size: 50px !important;
-    font-family: "Raleway", sans-serif !important;
+    font-size: 40px !important;
+    font-family: "Poiret One", cursive;
     margin-top: 5vh !important;
   }
 
@@ -71,7 +87,7 @@
   }
 
   .mobile-nav-container {
-    margin-top: 5vh;
+    margin-top: 15vh;
     margin-left: 25vw;
   }
 
@@ -81,5 +97,9 @@
 
   .mobile-ul {
     font-size: 35px;
+  }
+
+  .MuiPopover-paper {
+    width: 101vw;
   }
 }

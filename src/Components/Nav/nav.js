@@ -1,20 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
+import Socials from "../Socials/socials";
 
 function Nav() {
   return (
     <>
       <div className="nav">
         <div className="nav-container">
-          <ul className="nav-ul">
-            <a href="/" className="nav-link">
-              <li className="nav-li">home</li>
+          <ul>
+            <a href="/" className="nav-li">
+              <li>home</li>
             </a>
-            <a href="/projects" className="nav-link">
-              <li className="nav-li">projects</li>
+            <a href="/about" className="nav-li">
+              <li>about</li>
             </a>
-            <a href="/about" className="nav-link">
-              <li className="nav-li">about</li>
+            <a href="/projects" className="nav-li">
+              <li>projects</li>
             </a>
           </ul>
         </div>

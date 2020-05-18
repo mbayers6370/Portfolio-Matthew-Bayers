@@ -1,21 +1,21 @@
 .social-container {
-  background-color: rgba(49, 49, 49, 0.548);
   color: white;
   position: fixed;
-  margin-top: 200px;
-  margin-right: 5vw;
-  left: 10px;
-  padding: 2vw;
-  border-radius: 10px;
+  bottom: 2vh;
+  width: 10vw;
+  z-index: 10;
+  left: 2vw;
 }
 
 .social-icon {
-  margin-bottom: 30px;
+  margin-bottom: 2vh;
   color: white !important;
+  float: left;
+  margin-left: 20px;
 }
 
-.icon {
-  color: white !important;
+.social-icon:hover {
+  color: rgb(224, 150, 79) !important;
 }
 
 @media only screen and (max-width: 1025px) {

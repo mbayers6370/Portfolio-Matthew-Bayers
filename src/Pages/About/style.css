@@ -2,72 +2,85 @@
   width: 100%;
   height: 100vh;
   text-align: center;
-  background-image: url(../Video/paper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .about-content {
-  float: left;
-  background-color: rgb(47, 89, 105);
-  width: 70%;
-  height: 100vh;
-  border-right: 2px rgb(139, 139, 139) solid;
-  font-family: "Homemade Apple", cursive;
+  background-color: rgb(14, 74, 92);
+  width: 100%;
+  height: 101.6vh;
+  font-family: "Special Elite", cursive;
   letter-spacing: 3px;
+  margin-top: -3vh !important;
 }
 
 .about-bio {
-  background-color: rgb(67, 107, 122);
   color: white;
-  font-size: 18px;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 10px;
-  border: 3px rgb(167, 167, 167) solid;
-  padding: 20px;
+  font-size: 14px;
+  padding: 13vw;
 }
 
 .about-pic {
-  width: 10vw;
-  margin-top: 5vh;
+  width: 30vw;
+  margin-top: 8.7vh;
+  float: left;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 @media only screen and (max-width: 1025px) {
   .about-content {
-    width: 90vw;
-    height: 50vh;
-    margin-left: 5vw;
+    height: 103vh;
+  }
+
+  .about-pic {
+    width: 40vh;
+    float: unset;
     margin-top: 20vh;
-    border-radius: 10px;
-    border-right: unset;
+    margin-bottom: -2vh;
+  }
+
+  .about-bio {
+    background-color: rgb(11, 61, 77);
+    font-size: 18px;
+    padding: 10vw;
   }
 }
 
 @media only screen and (max-width: 770px) {
   .about-content {
-    width: 90vw;
-    height: 65vh;
-    margin-left: 5vw;
-    margin-top: 20vh;
-    border-radius: 10px;
+    height: 103vh;
+  }
+
+  .about-pic {
+    width: 50vh;
+    float: unset;
+    margin-top: 5vh;
+    margin-bottom: -2.5vh;
+  }
+
+  .about-bio {
+    background-color: rgb(11, 61, 77);
+    font-size: 18px;
+    padding: 4vw;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .about {
-    background-image: unset;
-  }
-
   .about-content {
     width: 100.7vw;
-    height: 115vh;
-    margin-top: unset;
-    margin-left: unset;
-    border-radius: unset;
+    height: 103.2vh;
   }
 
   .about-bio {
     font-size: 15px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .about-pic {
+    width: 80vw;
+    margin-bottom: -4.5vh;
   }
 }

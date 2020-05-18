@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
+import HighlightOffIcon from "@material-ui/icons/HighlightOff";
 import "./style.css";
 
 export default function Mobile() {
@@ -17,14 +18,14 @@ export default function Mobile() {
 
   return (
     <div className="mobile-nav">
-      <Button
+      <button
         className="menu-button"
         aria-controls="simple-menu"
         aria-haspopup="true"
         onClick={handleClick}
       >
         <i className="fa fa-bars fa-2x"></i>
-      </Button>
+      </button>
       <Menu
         className="mobile-menu"
         anchorEl={anchorEl}
@@ -32,6 +33,9 @@ export default function Mobile() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
+        <div onClick={handleClose} className="mobile-close">
+          <HighlightOffIcon style={{ fontSize: "35px" }} />
+        </div>
         <div className="mobile-nav-container">
           <MenuItem onClick={handleClose} className="menu-item-mobile">
             <a className="mobile-ul" href="/">
