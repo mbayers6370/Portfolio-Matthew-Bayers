@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+nav {
+  height: 115px;
+  width: 100% !important;
+  background-color: rgb(248, 248, 248);
+  position: fixed;
+  z-index: 4;
+  transition: width 0.1s ease !important;
+}
+
+.logoNav {
+  width: 75px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.link-wrapper {
+  width: 50vw;
+  height: 100px;
+  float: right;
+  margin-top: 25px;
+}
+
+.icons {
+  height: 15px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.fa {
+  color: black;
+  padding-left: 20px;
+  margin-right: 5px;
+}
+
+*/ ul {
+  list-style-type: none;
+  margin-left: 60px;
+}
+
+ul:not(.browser-default) > li {
+  list-style-type: none;
+}
+
+li {
+  font-size: 20px;
+  float: right;
+  color: black;
+}
+
+.addedLink {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.addedLink:hover {
+  border-bottom: 2px solid rgb(97, 93, 56);
+  padding-bottom: 44px;
+  color: rgb(97, 93, 56);
+}
+
+.sidenav {
+  display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+  .nav {
+    display: none;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .link-wrapper {
+    width: 30vw;
+  }
+}

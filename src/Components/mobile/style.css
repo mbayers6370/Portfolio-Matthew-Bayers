@@ -1,12 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&family=Walter+Turncoat&display=swap");
+
 .mobile-nav {
   display: none !important;
 }
 
 @media only screen and (max-width: 1025px) {
   button {
-    color: orange;
+    color: white;
     background-color: rgba(255, 255, 255, 0);
     border: none;
+    float: left;
+    margin-top: 3vh;
   }
 
   .MuiPaper-root {
@@ -20,7 +25,7 @@
     max-height: none !important;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: rgba(0, 0, 0, 0.781) !important;
+    background-color: rgba(0, 0, 0, 0.877) !important;
     left: 0px !important;
     width: 105vw;
     height: 101vh;
@@ -31,15 +36,22 @@
   .mobile-nav {
     display: initial !important;
     position: fixed;
-    left: 2vw;
     z-index: 8;
-    margin-top: 3vh;
     text-align: center;
+    width: 100vw;
+    background-color: rgb(97, 93, 56);
+    height: 200px;
+    padding: 30px;
   }
 
   .mobile-nav-container {
     margin-left: 35vw;
     margin-top: 10vh;
+    display: grid;
+  }
+
+  .hamburger {
+    color: white !important;
   }
 
   .mobile-close {
@@ -56,7 +68,6 @@
 
   .menu-item-mobile {
     font-size: 40px !important;
-    font-family: "Poiret One", cursive;
     margin-top: 5vh !important;
   }
 
@@ -67,28 +78,42 @@
 
   .mobile-ul {
     color: white;
+    font-family: "Permanent Marker", cursive;
+    font-size: 75px !important;
+  }
+
+  .logoMobile {
+    width: 15vw;
+    margin-top: -10px;
+    margin-left: -70px;
   }
 }
 
 @media only screen and (max-width: 770px) {
-  .mobile-nav {
-    margin-top: 3vh;
-  }
-
   .MuiMenu-list {
     height: 97vh !important;
     width: 96vw !important;
+  }
+
+  .logoMobile {
+    width: 20vw;
+    margin-top: -10px;
+  }
+
+  button {
+    margin-top: 5vh;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .mobile-nav {
     margin-bottom: 0px;
+    height: 120px;
   }
 
   .mobile-nav-container {
-    margin-top: 15vh;
-    margin-left: 25vw;
+    display: grid;
+    margin-left: 15vw;
   }
 
   .MuiMenu-list {
@@ -96,10 +121,27 @@
   }
 
   .mobile-ul {
-    font-size: 35px;
+    font-size: 50px !important;
   }
 
   .MuiPopover-paper {
     width: 101vw;
+  }
+
+  .fa-bars {
+    padding-left: 4% !important;
+    color: white !important;
+  }
+
+  nav {
+    display: none;
+  }
+
+  button {
+    margin-top: 2vh;
+  }
+
+  .logoMobile {
+    margin-left: -30px;
   }
 }

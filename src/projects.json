@@ -2,49 +2,40 @@
   {
     "id": 1,
     "name": "Bit Academy",
-    "image": "./../images/homePage.png",
     "application": "Bit Academy",
-    "content": "A site for students & teachers to connect!",
-    "link": "https://arcane-snowlands.herokuapp.com/"
+    "content": "An Educational Website",
+    "expand": "This website is built for students and teachers to interact in ONE place. You will find a virtual page where students can talk to their teachers and learn all together with an open chat box for everyone to communicate. There are pages for assignments, grades, and attendance. Both of which show either a student or teacher side.",
+    "link": "https://arcane-snowlands.herokuapp.com/",
+    "linkGitHub": "https://github.com/mbayers6370/Bit_Academy"
   },
   {
     "id": 2,
     "name": "Coalesce",
     "image": "./../images/matches-ex.jpg",
     "application": "Coalesce",
-    "content": "Search for restaurants using Yelp Fusion, and match with friends.",
-    "link": "https://arcane-woodland-29279.herokuapp.com/"
+    "content": "Restaurant Match Maker",
+    "expand": "This website searches restaurants based on a location, once you have liked restaurants you may match with your friends on places you both enjoy together. This makes it easier for everyone to enjoy going out to eat!",
+    "link": "https://arcane-woodland-29279.herokuapp.com/",
+    "linkGitHub": "https://github.com/christianlMaldonado/Coalese"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Panoptic",
     "image": "./../images/project-1.png",
     "application": "Panoptic",
-    "content": "Music videos, lyrics, & artist data - all at your fingertips!",
-    "link": "https://mbayers6370.github.io/Project-1/"
+    "content": "Music Artist All-Encompassing Search",
+    "expand": "Search an artist and find their most popular songs, information about the artists - tour dates, a bio, and even music videos!",
+    "link": "https://mbayers6370.github.io/Project-1/",
+    "linkGitHub": "https://github.com/mbayers6370/Project-1"
   },
   {
     "id": 4,
     "name": "Bamazon",
     "image": "./../images/bamazon2.gif",
     "application": "Bamazon",
-    "content": "A store ran on Node.js & MySQL.",
-    "link": "https://github.com/mbayers6370/bamazon"
-  },
-  {
-    "id": 5,
-    "name": "Giphy",
-    "image": "./../images/giphy.png",
-    "application": "Giphy",
-    "content": "Search for gifs using Giphy API!",
-    "link": "https://mbayers6370.github.io/giphy/"
-  },
-  {
-    "id": 2,
-    "name": "Friend Finder",
-    "image": "./../images/friends.png",
-    "application": "Friend Finder",
-    "content": "Find your new best friend!",
-    "link": "https://fathomless-thicket-85131.herokuapp.com/"
+    "content": "Store Database",
+    "expand": "A program run on Node.js using MySQL. You may view inventory, purchase a product and everything updates in live.",
+    "link": "https://github.com/mbayers6370/bamazon",
+    "linkGitHub": "https://github.com/mbayers6370/bamazon"
   }
 ]

@@ -1,40 +1,232 @@
-.myVideo {
-  position: fixed;
-  left: 0;
-  top: -25vh;
-  width: 105%;
-  height: 150vh;
-  z-index: 2;
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&family=Walter+Turncoat&display=swap");
+
+.homeContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(227, 230, 224);
+  text-align: center;
+  padding-top: 140px;
 }
 
-.myGif {
-  z-index: 1;
-  display: none;
+#home {
+  background-image: url(../Video/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info-box-left {
+  margin-left: 15vw;
+  float: left;
+  border-radius: 30px;
+}
+
+.info-box-right {
+  width: 450px;
+  height: 450px;
+  background-color: rgba(255, 255, 255, 0.651);
+  margin-right: 12vw;
+  float: right;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: rgb(97, 93, 56);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.left-profile {
+  width: 450px;
+  height: 450px;
+  border-radius: 30px;
+}
+
+.info-h1 {
+  font-size: 20px;
+  font-family: "Walter Turncoat", cursive;
+}
+
+.info-h2 {
+  font-size: 33px;
+  font-family: "Monoton", cursive;
+  margin-bottom: 60px;
+}
+
+.info-inspire {
+  font-size: 17px;
+  font-family: "Walter Turncoat", cursive;
+  text-decoration: underline;
+}
+
+.info-grab {
+  font-size: 33px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.call-button {
+  background-color: rgb(202, 198, 163);
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  color: white;
+  font-family: "Walter Turncoat", cursive;
+  font-size: 15px;
+}
+
+.call-button:focus {
+  background-color: rgb(228, 224, 188);
+}
+
+@media only screen and (min-width: 1900px) {
+  .content-holder {
+    padding-top: 50px;
+  }
+
+  .left-profile {
+    width: 650px;
+    height: 700px;
+  }
+
+  .info-box-right {
+    width: 650px;
+    height: 700px;
+    padding-top: 60px;
+  }
+
+  .info-h1 {
+    font-size: 33px;
+  }
+
+  .info-h2 {
+    font-size: 50px;
+  }
+
+  .info-inspire {
+    font-size: 27px;
+  }
+
+  .info-grab {
+    font-size: 50px;
+    margin-bottom: 60px;
+  }
 }
 
 @media only screen and (max-width: 1025px) {
-  .myGif {
-    height: 90vh;
-    display: initial;
-    margin-left: -40vw;
+  .homeContainer {
+    height: 121vh;
+    padding-bottom: 50px;
   }
 
-  .myVideo {
-    display: none;
+  .content-holder {
+    padding-top: 80px;
+    padding-left: 18vw;
+  }
+
+  .left-profile {
+    width: 650px;
+    height: 700px;
+  }
+
+  .info-box-left {
+    margin-left: unset;
+  }
+
+  .info-box-right {
+    width: 650px;
+    height: 700px;
+    padding-top: 60px;
+    padding-left: unset;
+    padding-right: unset;
+    margin-right: 18vw;
+  }
+
+  .info-h1 {
+    font-size: 33px;
+  }
+
+  .info-h2 {
+    font-size: 57px;
+  }
+
+  .info-inspire {
+    font-size: 27px;
+  }
+
+  .info-grab {
+    font-size: 60px;
+    margin-bottom: 60px;
+  }
+
+  .call-button {
+    margin-left: 27vw;
   }
 }
 
-@media only screen and (max-width: 1025px) {
-  .myGif {
-    height: 101vh;
-    display: initial;
-    margin-left: -60vw;
+@media only screen and (max-width: 770px) {
+  .homeContainer {
+    height: 165vh;
+  }
+
+  .content-holder {
+    padding-left: 7.5vw;
+  }
+
+  .info-box-right {
+    margin-right: 7.5vw;
+  }
+
+  .call-button {
+    margin-left: 35vw;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .myGif {
-    height: 101vh;
-    margin-left: -30px;
+@media only screen and (max-width: 380px) {
+  .homeContainer {
+    height: 140vh !important;
+  }
+
+  .content-holder {
+    padding-top: 20px;
+  }
+
+  .content-holder {
+    padding-left: 5vw;
+  }
+
+  .left-profile {
+    width: 90vw;
+    height: auto;
+  }
+
+  .info-box-right {
+    width: 90vw;
+    height: auto;
+    padding-top: 10px;
+    padding-left: unset;
+    padding-right: unset;
+    margin-right: 5vw;
+    margin-top: 10px;
+  }
+
+  .info-h1 {
+    font-size: 18px;
+  }
+
+  .info-h2 {
+    font-size: 45px;
+    margin-bottom: unset;
+  }
+
+  .info-inspire {
+    font-size: 25px;
+  }
+
+  .info-grab {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .call-button {
+    margin-left: 33vw;
+    margin-bottom: 20px;
   }
 }
