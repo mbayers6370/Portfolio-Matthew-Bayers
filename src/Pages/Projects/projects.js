@@ -22,8 +22,8 @@ class Project extends Component {
                   className="project-image"
                   src={Coalesce}
                 ></img>
-                <div class="overlay">
-                  <div class="text">
+                <div className="overlay">
+                  <div className="text">
                     Coalesce is designed to connect people through food. You can
                     match with friends to make going out for food an easier
                     task. <br></br>
@@ -43,8 +43,8 @@ class Project extends Component {
                   className="project-image"
                   src={Panoptic}
                 ></img>
-                <div class="overlay">
-                  <div class="text">
+                <div className="overlay">
+                  <div className="text">
                     Panoptic pulls from multiple API's to give you as much
                     information possible about any given musical artist.
                     <br></br>
@@ -66,8 +66,8 @@ class Project extends Component {
                   className="project-image"
                   src={Bit}
                 ></img>
-                <div class="overlay">
-                  <div class="text">
+                <div className="overlay">
+                  <div className="text">
                     Bit Academy is a one stop shop for students in a digital
                     age. Video calls, messaging, assignments - it's all here in
                     one app!
@@ -90,8 +90,8 @@ class Project extends Component {
                   className="project-image"
                   src={Bamazon}
                 ></img>
-                <div class="overlay">
-                  <div class="text">
+                <div className="overlay">
+                  <div className="text">
                     Bamazon is a Node.js application that accesses a MongoDB
                     database store. Once a user purchases a product the database
                     inventory is updated as well as their account/wallet.

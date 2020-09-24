@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 .footer {
-  background-color: rgb(185, 197, 191);
+  background-color: rgb(95, 112, 76);
   width: 100%;
   bottom: 0;
   font-family: "Quicksand", sans-serif !important;
@@ -38,7 +38,7 @@
   height: 100px;
   color: rgb(0, 0, 0);
   bottom: 0;
-  background-color: rgb(176, 185, 181);
+  background-color: rgb(67, 80, 52);
 
   text-align: center;
   padding: 40px;
@@ -52,6 +52,6 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    padding-left: 5vw;
+    padding-left: 12vw;
   }
 }

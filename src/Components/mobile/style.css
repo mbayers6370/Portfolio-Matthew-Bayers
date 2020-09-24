@@ -48,6 +48,7 @@
     margin-left: 35vw;
     margin-top: 10vh;
     display: grid;
+    margin-left: 30vw;
   }
 
   .hamburger {
@@ -98,10 +99,15 @@
   .logoMobile {
     width: 20vw;
     margin-top: -10px;
+    margin-left: -30px;
   }
 
   button {
     margin-top: 5vh;
+  }
+
+  .mobile-nav-container {
+    margin-left: 25vw;
   }
 }
 

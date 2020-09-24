@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&family=Walter+Turncoat&display=swap");
 
 nav {
   height: 115px;
@@ -50,7 +51,7 @@ li {
 }
 
 .addedLink {
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Walter Turncoat", cursive;
 }
 
 .addedLink:hover {

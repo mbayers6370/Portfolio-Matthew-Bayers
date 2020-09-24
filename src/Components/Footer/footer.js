@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer">
         <div className="contact-me">
           <ul>
-            <a href="mailto: matthew.bayers@yahoo.com">
+            <a href="mailto: matthew.bayers@gmail.com">
               <li className="footer-link">
                 <i class="fa fa-envelope-square"></i>
               </li>
